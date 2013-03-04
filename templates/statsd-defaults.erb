@@ -5,7 +5,7 @@
 <% when 'apt' -%>
 STATSJS="/usr/share/statsd/stats.js"
 <% when 'npm' -%>
-STATSJS="/usr/lib/node_modules/statsd/stats.js"
+STATSJS="/usr/local/lib/node_modules/statsd/stats.js"
 <% end -%>
 STATSD_CONFIG="<%= configfile %>"
 STATSD_LOGFILE="<%= logfile %>"
